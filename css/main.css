@@ -1,0 +1,135 @@
+
+		*{margin: 0;padding: 0;text-decoration: none;}
+		body{
+			background-color:#E8E8E8;
+		}
+		.top
+		{
+			height: 27px;
+			width: 1000px;
+			background-image: url(images/top_bg.jpg);
+			background-repeat-x: ;
+			margin: 0 auto;
+		}
+		
+		.top_content ul li
+		{
+			float:right;
+			list-style:none;
+			list-style-image: url(images/arrow.jpg);
+			width:80px ;
+			line-height: 27px;
+			
+		}
+		.top_content ul li a:link,.top_content ul li a:visited
+		{
+			text-decoration: none;
+			color:darkgrey;
+			font-size: 13px;
+		}
+		.top_content ul li a:hover,.top_content ul li a:active
+		{
+			text-decoration: none;
+			color: #FF0000;
+		}
+		
+		.wrap
+		{
+			height: 80px;
+			background:white;
+			width:1000px;
+			
+			margin: 0 auto;
+		}
+		.log_left
+		{
+			width: 375px;
+			height: 80px;
+			float: left;
+		}
+		.log_right
+		{
+			width: 300px;
+			height: 28px;
+			margin-top:30px;
+			display:block;
+			position:absolute;right:0px;
+			font-size: 12px;
+			color: darkgrey;
+			
+			font:5px;
+			
+		}
+		.log_right img{
+			vertical-align: middle;
+			margin-right: 10px;
+			
+		}
+		.log_right span{
+			color: red;
+			font-weight: 800;
+			font-size: 18px;
+			font-family: "微软雅黑";
+		}
+		
+		.nav{
+			width: 1000px;
+			height: 40px;
+			margin: 0 auto;
+			
+		}
+		.nav_left{
+			height: 40px;
+			width: 10px;
+			background: url(../../images/nav_left.jpg);
+			float: left;
+			
+			display: inline;
+		}
+		.nav_center{
+			height: 100%;
+			width: 980px;
+			background-image: url(../../images/nav_bg.jpg);
+			background-repeat:repeat-x;
+			line-height: 40px;
+			float: left;
+		}
+		.nav_center_left{
+			height: 42px;
+			width: 680px;
+		}
+		.nav_center li{
+			float: left;
+			list-style: none;
+			width: 100px;
+			text-align: center;
+			font-family: "微软雅黑";
+		}
+		.nav_center a:link{
+			color: white;
+		}
+		.nav_center a:hover{
+			color: yellow;
+		}
+		.search_text{
+			height: 25px;
+			width: 217px;
+			margin-left:70px ;
+			background:white url(../../images/search.jpg) no-repeat ;
+			background-position: right;
+			
+			
+		}
+		.nav_center_right{
+			height: 32px;
+			width: 300px;
+			
+		}	
+		.nav_right{
+			height: 40px;
+			width: 10px;
+			background: url(../../images/nav_right.jpg);
+			float: right;
+			display: inline;
+		}
+		
