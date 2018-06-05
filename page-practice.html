@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title>页码的制作</title>
+		<style>
+			/*在此定义相关CSS样式*/
+			*{
+				padding: 0;margin: 0;
+			}
+			.page{
+				width: 500px;
+				text-align: center;
+				margin: 0 auto;
+				background: #E8E8E8;
+				margin-top: 10px;
+			}
+			.page a{
+				display:inline-block;
+				color: black;
+				font-family: "微软雅黑";
+				margin-left:15px ;
+				text-decoration: none;
+				height: 30px;
+				width: 35px;
+				font-size: 15px;
+				line-height: 30px;
+				border: solid 1 #BBBBBB;
+			}
+			.page a:hover,.page a:active{
+				
+				background:#D3520C;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--在此制作页码的基本结构-->
+		<div class="page">
+			<a href="#">首页</a>
+			<a href="#"><</a>
+			<a href="#" style="background:#D3520C ;">1</a>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<a href="#">...</a>
+			<a href="#">></a>
+			<a href="#">末页</a>
+		</div>
+
+	</body>
+
+</html>
